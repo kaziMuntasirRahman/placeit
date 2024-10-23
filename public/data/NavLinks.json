@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Home",
+    "link": "/",
+    "children": []
+  },
+  {
+    "title": "About Us",
+    "link": "/about",
+    "children": []
+  },
+  {
+    "title": "Our Agents",
+    "link": "/agents",
+    "children": [
+      "Our Agent",
+      "Agent Details"
+    ]
+  },
+  {
+    "title": "Properties",
+    "link": "/properties",
+    "children": []
+  },
+  {
+    "title": "Gallery",
+    "link": "/gallery",
+    "children": []
+  },
+  {
+    "title": "Blog",
+    "link": "/blog",
+    "children": []
+  },
+  {
+    "title": "Contact Us",
+    "link": "/contact",
+    "children": []
+  }
+]
