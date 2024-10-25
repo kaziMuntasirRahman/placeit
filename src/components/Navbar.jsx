@@ -19,29 +19,32 @@ const Navbar = () => {
 
   return (
     <nav className="bg-bgPrimary w-full">
-      <section className="border-b border-px border-gray-500 ml-[355px] h-14 flex items-center w-full text-white font-bold text-lg">
-        <div className="flex items-center gap-3">
-          <IoIosMailOpen className="text-primaryColor text-xl" />
-          <p className="text-white text-sm font-medium font-primaryFont">Email us at : sales@yourwebsite.com</p>
-        </div>
-        <div id="icons" className="flex items-center gap-7 px-4 ml-auto text-sm">
-          <FaFacebookF />
-          <FaTwitter />
-          <IoLogoGoogleplus />
-          <FaPinterestP />
-          <IoBasketballOutline />
-        </div>
-        <div className="h-full flex min-w-[1000px]">
-          <div
-            className="bg-primaryColor w-8"
-            style={{ clipPath: "polygon(100% 0%, 100% 100%, 0 100%, 100% 0)" }}
-          />
-          <div className="bg-primaryColor h-full flex items-center gap-3 px-4 min-w-[550px] justify-self-end flex-grow">
-            <MdPhone />
-            <p>1-800-555-1234</p>
+      <section className="pl-[335px]">
+        <div className="border-b border-px border-gray-500 h-[58px] flex items-center w-full text-white font-bold text-lg">
+          <div className="flex items-center gap-3">
+            <IoIosMailOpen className="text-primaryColor text-xl" />
+            <p className="text-white text-sm font-medium font-primaryFont">Email us at : sales@yourwebsite.com</p>
+          </div>
+          <div id="icons" className="flex items-center gap-7 px-4 ml-auto text-sm">
+            <FaFacebookF />
+            <FaTwitter />
+            <IoLogoGoogleplus />
+            <FaPinterestP />
+            <IoBasketballOutline />
+          </div>
+          <div className="h-full flex">
+            <div
+              className="bg-primaryColor w-7"
+              style={{ clipPath: "polygon(100% 0%, 100% 100%, 0 100%, 100% 0)" }}
+            />
+            <div className="bg-primaryColor h-full flex items-center gap-3 px-10 justify-self-end flex-grow min-w-[550px]">
+              <MdPhone />
+              <p>1-800-555-1234</p>
+            </div>
           </div>
         </div>
       </section>
+
       {/* second navbar  */}
       <section className="pt-10">
         <div className="flex items-end gap-px w-[1200px] mx-auto">
@@ -93,7 +96,7 @@ const Navbar = () => {
                   className="!h-10 input flex items-center rounded-none gap-2 !focus:border-none !focus:outline-none !outline-none !border-none">
                   <input
                     type="text"
-                    className="!h-10 w-full px-5 border  focus:border-primaryColor placeholder:text-black"
+                    className="!h-10 w-full px-5 border  focus:border-primaryColor text-black font-semibold placeholder:text-black"
                     placeholder="search here" />
                 </label>
               </li>
