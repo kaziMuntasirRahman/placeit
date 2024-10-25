@@ -1,5 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import { useEffect, useState } from "react";
+import { FaPinterestP, FaSearch, FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa6";
+import { IoIosMailOpen, IoLogoGoogleplus } from "react-icons/io";
+import { IoBasketballOutline } from "react-icons/io5";
+import { MdPhone } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -15,14 +19,33 @@ const Navbar = () => {
 
   return (
     <nav className="bg-bgPrimary w-full">
-      <section>
-        <p className="text-white text-sm font-medium font-primaryFont">
-          email us at: sales@yourwebsite.com
-        </p>
+      <section className="border-b border-px border-gray-500 ml-[355px] h-14 flex items-center w-full text-white font-bold text-lg">
+        <div className="flex items-center gap-3">
+          <IoIosMailOpen className="text-primaryColor text-xl" />
+          <p className="text-white text-sm font-medium font-primaryFont">Email us at : sales@yourwebsite.com</p>
+        </div>
+        <div id="icons" className="flex items-center gap-7 px-4 ml-auto text-sm">
+          <FaFacebookF />
+          <FaTwitter />
+          <IoLogoGoogleplus />
+          <FaPinterestP />
+          <IoBasketballOutline />
+        </div>
+        <div className="h-full flex min-w-[1000px]">
+          <div
+            className="bg-primaryColor w-8"
+            style={{ clipPath: "polygon(100% 0%, 100% 100%, 0 100%, 100% 0)" }}
+          />
+          <div className="bg-primaryColor h-full flex items-center gap-3 px-4 min-w-[550px] justify-self-end flex-grow">
+            <MdPhone />
+            <p>1-800-555-1234</p>
+          </div>
+        </div>
       </section>
-      <section className="">
-        <div className="flex items-center gap-px w-[1200px] mx-auto">
-          <img src="images/logo.png" className="mr-auto" />
+      {/* second navbar  */}
+      <section className="pt-10">
+        <div className="flex items-end gap-px w-[1200px] mx-auto">
+          <img src="images/logo.png" className="mr-auto pb-4" />
           {
             navLinks.map((navLink, index) =>
               <div className="dropdown dropdown-hover">
@@ -54,10 +77,10 @@ const Navbar = () => {
                 }
               </div>
             )}
-          <div className="dropdown dropdown-end dropdown-open">
+          <div className="dropdown dropdown-end">
             <FaSearch
               tabIndex={0}
-              className="text-white text-lg border-l-2 pl-5 min-w-max ml-3 font-raleway block size-auto py-6 duration-75"
+              className="text-white text-lg border-l-2 pl-6 min-w-max ml-3 font-raleway block size-auto mb-6 duration-75"
               role="button"
             />
             <ul
@@ -65,7 +88,7 @@ const Navbar = () => {
               className="bg-white  dropdown-content z-[1] !min-w-max shadow border border-t-4 border-primaryColor space-y-px"
             >
               <li
-                className="font-raleway block text-white p-5 min-w-[260px] h-full !w-full duration-700 hover:cursor-pointer">
+                className="font-raleway block text-white px-2 py-5 min-w-[260px] h-full !w-full duration-700 hover:cursor-pointer">
                 <label
                   className="!h-10 input flex items-center rounded-none gap-2 !focus:border-none !focus:outline-none !outline-none !border-none">
                   <input
