@@ -1,7 +1,20 @@
+import SearchForm from "../components/SearchForm";
+import Slider from "../components/Slider";
+
 const Home = () => {
+  const images = [
+    'images/slider/image-1.jpg',
+    'images/slider/image-2.jpg',
+    'images/slider/image-3.jpg',
+    'images/slider/image-4.jpg',
+    'images/slider/image-5.jpg',
+    'images/slider/image-6.jpg',
+  ];
+
   return (
-    <div className="bg-primaryColor text-customSize">
-      this is home page
+    <div>
+      <Slider images={images} />
+      <SearchForm />
     </div>
   );
 };

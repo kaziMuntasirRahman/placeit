@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 const Root = () => {
   return (
-    <div className="min-h-screen relative overflow-x-hidden">
+    <div className="relative overflow-x-hidden">
       <Navbar />
-      {/* <Outlet /> */}
+      <Outlet />
       <Footer />
     </div>
   );

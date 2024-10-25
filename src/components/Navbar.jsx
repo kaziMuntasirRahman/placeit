@@ -12,7 +12,6 @@ const Navbar = () => {
     fetch('data/NavLinks.json')
       .then(res => res.json())
       .then(data => setNavLinks(data))
-    console.log(navLinks)
   }, [])
 
   const baseNavLinkStyle = 'font-raleway block size-auto text-white px-3 pt-5 pb-6 duration-75';
@@ -51,7 +50,7 @@ const Navbar = () => {
           <img src="images/logo.png" className="mr-auto pb-4" />
           {
             navLinks.map((navLink, index) =>
-              <div className="dropdown dropdown-hover">
+              <div className="dropdown dropdown-hover" key={index}>
                 <NavLink
                   tabIndex={0}
                   to={navLink.link}
@@ -73,7 +72,9 @@ const Navbar = () => {
                     {
                       navLink.children.map((child, index) =>
                         <li
-                          className={`font-raleway block bg-primaryColor text-white !px-[25px] !py-[9px] min-w-[260px] h-full !w-full hover:bg-bgPrimary duration-700 hover:cursor-pointer`}>
+                          className={`font-raleway block bg-primaryColor text-white !px-[25px] !py-[9px] min-w-[260px] h-full !w-full hover:bg-bgPrimary duration-700 hover:cursor-pointer`}
+                          key={index}
+                          >
                           <a className="rounded-none">{child.toUpperCase()}</a></li>
                       )}
                   </ul>

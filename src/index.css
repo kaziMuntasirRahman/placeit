@@ -5,7 +5,11 @@
 
 
 
-*, *::after, *::before, body, html{
+*,
+*::after,
+*::before,
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,3 +19,18 @@
   font-family: "Raleway", sans-serif;
 }
 
+.mySwiper {
+  height: auto;
+  border-bottom: 3px solid #71B100;
+}
+
+#icons>* {
+  color: white;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+#icons>*:hover {
+  color: #71B100;
+  transition: all 0.3s;
+}
