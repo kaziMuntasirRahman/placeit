@@ -1,3 +1,5 @@
+import BestHouse from "../components/BestHouse";
+import Properties4Sale from "../components/Properties4Sale";
 import SearchForm from "../components/SearchForm";
 import Slider from "../components/Slider";
 
@@ -15,6 +17,8 @@ const Home = () => {
     <div>
       <Slider images={images} />
       <SearchForm />
+      <BestHouse />
+      <Properties4Sale />
     </div>
   );
 };

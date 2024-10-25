@@ -1,35 +1,9 @@
-{
-  name: 'City',
-  values: ['Any', 'New York', 'California', 'Chicago', 'Melbourne'],
-  defaultValue: 'Chicago'
-},
-{
-  name: 'Search by property ID',
-  values: ['Search ID', 'Id One', 'Id Two', 'Id Three', 'Id Four'],
-  defaultValue: 'Search ID'
-},
-{
-  name: 'Search by address',
-  values: ['Search ID', 'Id One', 'Id Two', 'Id Three', 'Id Four'],
-  defaultValue: 'Search ID'
-},
-{
-  name: 'Location',
-  values: ['Any', 'New York', 'California', 'Chicago', 'Melbourne'],
-  defaultValue: 'Any'
-},
-{
-  name: 'Country',
-  values: ['Any','USA', 'Canada', 'Australia', 'Norway'],
-  defaultValue: 'Any'
-},
-{
-  name: 'Price from',
-  value: ['Any','10-50', '50-100', '100-150', '150-250'],
-  defaultValue: 'Any'
-},
-{
-  name: 'Price to',
-  value: [Any, '50-100', '100-150', '150-250'],
-  defaultValue: 'Any'
-}
+1. sale or rent
+2. price ($12,234)
+3. Gorgeous Farm in Myrtle
+4. New York
+5. Citizens of distant epochs. Jean-François Champollion explorations? Brain is the seed of intelligence from which we
+6. number of bedroom (3)
+7. number of bathroom (3)
+8. number of garage
+9. area (1040 square)

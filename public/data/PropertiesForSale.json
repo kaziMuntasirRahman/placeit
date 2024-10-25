@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "saleOrRent": "Sale",
+    "price": 320000,
+    "title": "Charming Bungalow in Maplewood",
+    "location": "New Jersey",
+    "description": "Discover serenity in this quaint bungalow, nestled amongst scenic landscapes. Perfect for anyone seeking peace and comfort.",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "garage": 1,
+    "area": 850,
+    "image": "images/properties for sale/property-1.jpg"
+  },
+  {
+    "id": 2,
+    "saleOrRent": "Rent",
+    "price": 1800,
+    "title": "Modern Apartment Downtown",
+    "location": "Chicago",
+    "description": "A vibrant, urban space for modern living with easy access to entertainment, dining, and shopping.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garage": 0,
+    "area": 650,
+    "image": "images/properties for sale/property-2.jpg"
+  },
+  {
+    "id": 3,
+    "saleOrRent": "Sale",
+    "price": 475000,
+    "title": "Spacious Villa with Pool",
+    "location": "Miami",
+    "description": "A luxurious villa boasting a private pool and expansive outdoor areas, ideal for relaxation and entertaining guests.",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "garage": 2,
+    "area": 3200,
+    "image": "images/properties for sale/property-3.jpg"
+  },
+  {
+    "id": 4,
+    "saleOrRent": "Rent",
+    "price": 2200,
+    "title": "Penthouse with Skyline Views",
+    "location": "San Francisco",
+    "description": "Enjoy breathtaking skyline views in this stylish penthouse, featuring high-end finishes and modern amenities.",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garage": 1,
+    "area": 1500,
+    "image": "images/properties for sale/property-4.jpg"
+  },
+  {
+    "id": 5,
+    "saleOrRent": "Sale",
+    "price": 650000,
+    "title": "Gorgeous Farmhouse in Green Valley",
+    "location": "Vermont",
+    "description": "An idyllic farmhouse surrounded by lush greenery, perfect for those who love nature and spacious living.",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "garage": 2,
+    "area": 2800,
+    "image": "images/properties for sale/property-5.jpg"
+  },
+  {
+    "id": 6,
+    "saleOrRent": "Rent",
+    "price": 1500,
+    "title": "Cozy Cottage by the Lake",
+    "location": "Michigan",
+    "description": "A charming lakeside cottage that offers comfort, tranquility, and stunning water views.",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garage": 0,
+    "area": 700,
+    "image": "images/properties for sale/property-6.jpg"
+  }
+]

@@ -14,7 +14,7 @@ const SearchForm = () => {
   }
 
   return (
-    <div className="px-[370px] flex flex-col">
+    <div className="px-[370px] flex flex-col mb-16">
       <h1 className="text-3xl font-bold pt-3 pb-6 text-center">Search Your Property Now.</h1>
       <form
         onSubmit={search}

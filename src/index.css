@@ -2,8 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 *,
 *::after,
@@ -13,10 +12,17 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 .font-raleway {
   font-family: "Raleway", sans-serif;
+}
+
+.font-yantramanav {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 400;
+  font-style: normal
 }
 
 .mySwiper {
@@ -33,4 +39,19 @@ html {
 #icons>*:hover {
   color: #71B100;
   transition: all 0.3s;
+}
+
+.home-section-title {
+  font-family: "Yantramanav", sans-serif;
+  color: #71B100;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.home-section-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
