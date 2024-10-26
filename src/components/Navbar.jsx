@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [navLinks, setNavLinks] = useState([]);
   useEffect(() => {
-    fetch('data/NavLinks.json')
+    fetch('data/navLinks.json')
       .then(res => res.json())
       .then(data => setNavLinks(data))
   }, [])
@@ -38,7 +38,7 @@ const Navbar = () => {
             />
             <div className="bg-primaryColor h-full flex items-center gap-3 px-10 justify-self-end flex-grow min-w-[550px]">
               <MdPhone />
-              <p>1-800-555-1234</p>
+              <p className="font-yantramanav">1-800-555-1234</p>
             </div>
           </div>
         </div>

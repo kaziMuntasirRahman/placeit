@@ -12,7 +12,7 @@ const PropertiesForSaleCart = ({property}) => {
       <div className="relative">
         <img src={image} />
         <h3 className={`${badgeStyle} bg-[#71b100b3] rounded-ee-[25px] top-0 left-0`}>{saleOrRent}</h3>
-        <h3 className={`${badgeStyle} bg-[#000000b3] rounded-ss-[10px] right-0 bottom-0`}>${price}</h3>
+        <h3 className={`${badgeStyle} bg-[#000000b3] rounded-ss-[10px] right-0 bottom-0`}>${price.toLocaleString()}</h3>
       </div>
       <h1 className="mt-[22px] mb-[5px] text-lg font-bold hover:text-primaryColor cursor-pointer">{title}</h1>
       <h4 className="text-sm font-bold text-primaryColor">{location}</h4>

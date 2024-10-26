@@ -4,9 +4,9 @@ import React from "react";
 
 const BestHouse = () => {
   const houses = [
-    'images/best houses/house-1.jpg',
-    'images/best houses/house-2.jpg',
-    'images/best houses/house-3.jpg']
+    'images/best-houses/house-1.jpg',
+    'images/best-houses/house-2.jpg',
+    'images/best-houses/house-3.jpg']
 
   return (
     <div className="flex flex-col text-center mt-[85px] mb-[60px] px-[370px]">
@@ -18,8 +18,8 @@ const BestHouse = () => {
       <div className="flex justify-between">
         {
           houses.map((house, index) =>
-            <div className="relative overflow-hidden group">
-              <img src={house} key={index} className="w-full h-full object-cover" />
+            <div className="relative overflow-hidden group" key={index}>
+              <img src={house} className="w-full h-full object-cover" />
               <div className="bg-[#00000080] absolute right-full top-0 h-full w-full flex flex-col justify-between transition-right duration-700 ease-in-out group-hover:right-0">
                 <div />
                 <div />

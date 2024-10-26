@@ -21,7 +21,7 @@ html {
 
 .font-yantramanav {
   font-family: "Yantramanav", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal
 }
 
@@ -47,6 +47,7 @@ html {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .home-section-heading {
@@ -54,4 +55,5 @@ html {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 25px;
+  text-align: center;
 }

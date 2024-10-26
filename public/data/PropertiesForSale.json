@@ -10,7 +10,7 @@
     "bathrooms": 1,
     "garage": 1,
     "area": 850,
-    "image": "images/properties for sale/property-1.jpg"
+    "image": "images/properties-for-sale/property-1.jpg"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "bathrooms": 1,
     "garage": 0,
     "area": 650,
-    "image": "images/properties for sale/property-2.jpg"
+    "image": "images/properties-for-sale/property-2.jpg"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "bathrooms": 3,
     "garage": 2,
     "area": 3200,
-    "image": "images/properties for sale/property-3.jpg"
+    "image": "images/properties-for-sale/property-3.jpg"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "bathrooms": 2,
     "garage": 1,
     "area": 1500,
-    "image": "images/properties for sale/property-4.jpg"
+    "image": "images/properties-for-sale/property-4.jpg"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "bathrooms": 2,
     "garage": 2,
     "area": 2800,
-    "image": "images/properties for sale/property-5.jpg"
+    "image": "images/properties-for-sale/property-5.jpg"
   },
   {
     "id": 6,
@@ -75,6 +75,6 @@
     "bathrooms": 1,
     "garage": 0,
     "area": 700,
-    "image": "images/properties for sale/property-6.jpg"
+    "image": "images/properties-for-sale/property-6.jpg"
   }
 ]

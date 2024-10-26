@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jonathan Doe",
+    "occupation": "Real Estate Agent",
+    "image": "images/best-agents/agent-1.jpg"
+  },
+  {
+    "name": "Susan Mendelson",
+    "occupation": "Property Manager",
+    "image": "images/best-agents/agent-2.jpg"
+  },
+  {
+    "name": "Jordan Smith",
+    "occupation": "Real Estate Consultant",
+    "image": "images/best-agents/agent-3.jpg"
+  },
+  {
+    "name": "Sandra Brown",
+    "occupation": "Broker",
+    "image": "images/best-agents/agent-4.jpg"
+  }
+]

@@ -1,4 +1,6 @@
+import BestAgents from "../components/BestAgents";
 import BestHouse from "../components/BestHouse";
+import FindBestPlace from "../components/FindBestPlace";
 import Properties4Sale from "../components/Properties4Sale";
 import SearchForm from "../components/SearchForm";
 import Slider from "../components/Slider";
@@ -19,6 +21,8 @@ const Home = () => {
       <SearchForm />
       <BestHouse />
       <Properties4Sale />
+      <FindBestPlace />
+      <BestAgents />
     </div>
   );
 };
