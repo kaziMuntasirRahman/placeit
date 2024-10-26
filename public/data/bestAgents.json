@@ -1,22 +1,42 @@
 [
   {
+    "id": "agent-001-9f84c2f7-30b5-4b7b-93b7-f2446631bfa5",
     "name": "Jonathan Doe",
     "occupation": "Real Estate Agent",
-    "image": "images/best-agents/agent-1.jpg"
+    "image": "images/best-agents/agent-1.jpg",
+    "facebook": "https://www.facebook.com/jonathan.doe",
+    "twitter": "https://twitter.com/jonathan_doe",
+    "email": "jonathan.doe@example.com",
+    "website": "https://www.jonathandoerealestate.com"
   },
   {
-    "name": "Susan Mendelson",
+    "id": "agent-002-b2b9f5e6-4073-4a18-b8bb-162f7c45735a",
+    "name": "Samantha Smith",
     "occupation": "Property Manager",
-    "image": "images/best-agents/agent-2.jpg"
+    "image": "images/best-agents/agent-2.png",
+    "facebook": "https://www.facebook.com/samantha.smith",
+    "twitter": "https://twitter.com/samantha_smith",
+    "email": "samantha.smith@example.com",
+    "website": "https://www.samanthasmithproperties.com"
   },
   {
-    "name": "Jordan Smith",
+    "id": "agent-003-2d3f4b58-f837-4c5d-bc8d-f239e0c477cc",
+    "name": "Michael Johnson",
     "occupation": "Real Estate Consultant",
-    "image": "images/best-agents/agent-3.jpg"
+    "image": "images/best-agents/agent-3.jpg",
+    "facebook": "https://www.facebook.com/michael.johnson",
+    "twitter": "https://twitter.com/michael_johnson",
+    "email": "michael.johnson@example.com",
+    "website": "https://www.michaeljohnsonconsulting.com"
   },
   {
-    "name": "Sandra Brown",
+    "id": "agent-004-fbf1a267-001e-4081-b15e-d8d10cc5de52",
+    "name": "Emily Davis",
     "occupation": "Broker",
-    "image": "images/best-agents/agent-4.jpg"
+    "image": "images/best-agents/agent-4.png",
+    "facebook": "https://www.facebook.com/emily.davis",
+    "twitter": "https://twitter.com/emily_davis",
+    "email": "emily.davis@example.com",
+    "website": "https://www.emilydavisbusiness.com"
   }
 ]
