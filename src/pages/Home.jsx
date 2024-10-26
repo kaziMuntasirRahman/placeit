@@ -4,6 +4,7 @@ import FindBestPlace from "../components/FindBestPlace";
 import Properties4Sale from "../components/Properties4Sale";
 import SearchForm from "../components/SearchForm";
 import Slider from "../components/Slider";
+import SponsorSlider from "../components/SponsorSlider";
 
 const Home = () => {
   const images = [
@@ -23,6 +24,7 @@ const Home = () => {
       <Properties4Sale />
       <FindBestPlace />
       <BestAgents />
+      <SponsorSlider />
     </div>
   );
 };
